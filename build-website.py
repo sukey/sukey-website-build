@@ -36,7 +36,8 @@ def get_strings(lang):
 def build_lang(lang):
 	out_dir = os.path.join(OUTPUT_DIR, lang)
 	shutil.rmtree(out_dir, ignore_errors=True)
-	os.mkdir(out_dir)
+	if not os.path.exists(out_dir):
+		os.mkdir(out_dir)
 	print >>sys.stderr, "building to %s..." % out_dir
 
 	for fn in WEBSITE_FILES:
@@ -46,7 +47,8 @@ def build_lang(lang):
 			print >>fp, t.render(c)
 
 def main(*args):
-	os.mkdir(OUTPUT_DIR)
+	if not os.path.exists(OUTPUT_DIR):
+		os.mkdir(OUTPUT_DIR)
 	for arg in args:
 		build_lang(arg)
 
