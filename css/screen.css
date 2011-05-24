@@ -1,0 +1,101 @@
+body {
+    background-image: url('../img/lightgrey.png');
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#wrapper {
+    background-image: url('../img/bg.png');
+    background-repeat: repeat-y;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#logo {
+    background-image: url('../img/header.png');
+    background-position: 0px 0px;
+    width: 959px;
+    height: 191px;
+    background-repeat: no-repeat;
+    display: inline;
+    float: left;
+}
+
+#logobtm {
+    background-image: url('../img/headerbtm.png');
+    width: 469px;
+    height: 32px;
+    left: 490px;
+    position: relative;
+}
+
+#nav1 {
+    background-image: url('../img/blue.png');
+    width: 100%;
+    display: inline;
+    float: left;
+    clear: both;
+    color: #FFFFFF;
+}
+
+#nav1 ul {
+    list-style: none;
+}
+
+#nav1 li {
+    border-right: solid;
+    border-width: 1px;
+    border-right-color: #FFFFFF;
+    height: 18px;
+    list-style: none;
+    float: left;
+    padding: 10px 13px 10px 13px;
+    font-size: 12px;
+}
+
+#nav1 li:hover {
+    background-color: #000000;
+}
+
+#nav2 {
+    background-image: url('../img/subheadgradient.png');
+    background-repeat: repeat-x;
+    width: 100%;
+    display: inline;
+    float: left;
+    clear: both;
+    text-align: right;
+    height: 38px;
+}
+
+#nav2 .img {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#livestream {
+    width: 220px;
+    float: right;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+#icons {
+    float: right;
+}
+
+#navdrop {
+    width: 960px;
+    position: absolute;
+    background-image: url('../img/navdrop.png');
+    height: 9px;
+    top: 266px;
+}
+
+#main {
+    text-align: left;
+    padding-top: 30px;
+}

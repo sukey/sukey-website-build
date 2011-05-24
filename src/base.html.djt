@@ -1,0 +1,4 @@
+<html>
+<head>{% block header %}default title{% endblock %}</head>
+<body>{% block content %}default content{% endblock %}</body>
+</html>
