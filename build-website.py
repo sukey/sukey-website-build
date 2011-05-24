@@ -22,8 +22,8 @@ os.environ['DJANGO_SETTINGS_MODULE'] = '__main__'
 # this would normally be defined in the settings module, but we've set that to __main__, as above
 TEMPLATE_DIRS = ('src',)
 
-OUTPUT_DIR = "public_www"
-WEBSITE_FILES = ["main.html"]
+OUTPUT_DIR = "opensukey.org"
+WEBSITE_FILES = ["index.html","what.html","articles.html","blog.html","contact.html","donate.html"]
 
 from django.template.loader import get_template
 from django.template import Context, Template

@@ -1,4 +1,53 @@
-<html>
-<head>{% block header %}default title{% endblock %}</head>
-<body>{% block content %}default content{% endblock %}</body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Opensukey.org &mdash; {% block title %}Keeping demonstrators safe, mobile & informed.{% endblock %}</title>
+		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" /> 
+		<meta name="description" content="Sukey is a mapping and reporting tool for non-violent demonstrations." /> 
+		<meta name="keywords" content="Sukey, protest map, live protest, kettling, GIS, demo2011, demonstrations, #sukey, sukeyData" /> 
+		<meta name="robots" content="index, follow" /> 
+		<link rel="stylesheet" href="css/screen.css" />
+		<link rel="stylesheet" href="css/960.css" />
+		<link rel="stylesheet" href="css/text.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="container_12">
+				<div id="logo"></div>
+				<div id="nav1">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/what">What is Sukey?</a></li>
+						<li><a href="/getinvolved">Get involved!</a></li>
+						<li><a href="/articles">Articles</a></li>
+						<li><a href="http://sukey.org/blog/" target="_blank">Blog</a></li>
+						<li><a href="/contact">Contact</a></li>
+						<li><a href="/donate">Donate</a></li>
+					</ul>
+					<div id="logobtm"></div>
+				</div>
+				<div id="nav2">
+					<div id="livestream">
+						<img src="img/livestream.png" />
+						<img src="img/rss.png" />
+					</div>
+					<div id="icons">
+						<img class="img" src="img/github.png" />
+						<img src="img/divider.png" />
+						<img class="img" src="img/twitter.png" />
+						<img src="img/divider.png" />
+						<img class="img" src="img/youtube.png" />
+						<img src="img/divider.png" />
+					</div>
+					<div id="navdrop"></div>
+					<div id="main">
+						<div class="grid_9">{% block content %}Grid 9 Div{% endblock %}</div>
+						<div class="grid_3">Grid3 Div</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
