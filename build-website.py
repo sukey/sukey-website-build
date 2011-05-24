@@ -7,6 +7,8 @@ includes that don't really do anything dynamic.
 
 You can build the website for all languages, by doing:
 $ python build-website.py $(sh all-langs.sh)
+
+This requires the python-django package on debian.
 """
 
 __author__ = "Ximin Luo <infinity0@gmx.com>"
