@@ -16,3 +16,19 @@ Build Instructions:
 ===================
 You can build the website for all languages, by doing:
 $ python build-website.py $(sh all-langs.sh)
+
+.djt Template Code Examples
+===========================
+for loop demo
+-------------
+strings:
+{# note: not iteritems(); django does this automatically #}
+
+{% for k, v in strings.iteritems %}
+{{k}} = {{v}}
+{% endfor %}
+
+accessing "deep" variables directly
+-----------------------------------
+{{strings.key1}}
+{% endblock %}

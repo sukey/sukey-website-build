@@ -1,0 +1,7 @@
+{% extends "base.html.djt" %}
+
+{% block title %}Index{% endblock %}
+
+{% block content %}
+<h1>Index</h1>
+{% endblock %}

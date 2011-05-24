@@ -1,0 +1,14 @@
+{% extends "base.html.djt" %}
+
+{% block title %}What is Sukey?{% endblock %}
+
+{% block content %}
+<h1>What is Sukey?</h1>
+<h2>(<i>"Fleeing riot police on foot?  There's an app for that ..."</i> <span style="font-size:50%">(thanks @mlascarides!)</span>)</h2>
+<p>Sukey is a mobile app and a set of web services that are designed to keep you safe, mobile and informed during protests.
+<h3>Give a little</h3>
+<p>When you see something interesting, tweet with the hashtag <strong>sukey</strong> or send us an SMS.</p>
+<h3>Get a lot</h3>
+<p>Throughout the protest we will provide you with status updates via the Sukey app, SMS and @SukeyData on Twitter in order to keep you well informed about what is going on at the protest.</p>
+{% endblock %}
+

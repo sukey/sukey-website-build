@@ -1,0 +1,7 @@
+{% extends "base.html.djt" %}
+
+{% block title %}Donate{% endblock %}
+
+{% block content %}
+{% endblock %}
+

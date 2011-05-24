@@ -1,0 +1,18 @@
+{% extends "base.html.djt" %}
+
+{% block title %}Contact{% endblock %}
+
+{% block content %}
+<h2>Contact the team</h2>
+<p>You want to talk to us? Great - let's be friends. To help keep up with all the email coming in, we've got a few different addresses. If a message is sent to the wrong address, it'll take us <b>much</b> longer to reply.</p>
+<h3>Informal Stuff</h3>
+<p>Tweet us @sukeyData, write on our <a href="http://facebook.com/sukey.org">Facebook fan page</a> or use our <a href="https://spreadsheets0.google.com/viewform?hl=en&hl=en&formkey=dDBvY1RSdmxqOHpGU0kyQk9PaVM2aHc6MQ#gid=0">Google feedback form</a>.</p>
+<h3>Press</h3>
+<p>Thanks for the interest! We'd like you to email us on <img class="email" src="/image.php?m=moc.liamg@sserp%2Bgro.yekus" />.</p>
+<p>If you're looking for some info, we've got a few documents that may be of use - our <a href="/summary">executive summary</a> and our <a href="/press">press releases and announcements</a>.</p>
+<h3>Suggestions and Feedback</h3>
+<p>Tell us what to do next! We plan to release <i>Sukey 2: Electric Boogaloo</i> for the next protest and we want it to be better. We like feedback through <a href="https://spreadsheets0.google.com/viewform?hl=en&hl=en&formkey=dDBvY1RSdmxqOHpGU0kyQk9PaVM2aHc6MQ#gid=0">our feedback form</a>, but if you want you can send suggestions to <img class="email" src="/image.php?m=moc.liamg@snoitseggus%2Bgro.yekus" />.</p>
+<h3>Praise</h3>
+<p>I know - we're great, right? Just tweet us with smiles. Or <a href="/donate">donate some money</a> and write "for beer" in the note.</p>
+{% endblock %}
+
