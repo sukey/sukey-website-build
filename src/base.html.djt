@@ -5,7 +5,7 @@
 		<title>{{strings.key1}} - {% block title %}{{strings.key2}}{% endblock %}</title>
 		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" /> 
 		<meta name="description" content="{{strings.key3}}" /> 
-		<meta name="keywords" content="{{string.key4}}" /> 
+		<meta name="keywords" content="{{strings.key4}}" /> 
 		<meta name="robots" content="index, follow" /> 
 		<link rel="stylesheet" href="css/screen.css" />
 		<link rel="stylesheet" href="css/960.css" />
@@ -18,13 +18,13 @@
 				<div id="logo"></div>
 				<div id="nav1">
 					<ul>
-						<li><a href="/">{{string.key5}}</a></li>
-						<li><a href="/what">{{string.key6}}</a></li>
-						<li><a href="/getinvolved">{{string.key7}}</a></li>
-						<li><a href="/articles">{{string.key8}}</a></li>
-						<li><a href="http://sukey.org/blog/" target="_blank">{{string.key9}}</a></li>
-						<li><a href="/contact">{{string.key10}}</a></li>
-						<li><a href="/donate">{{string.key11}}</a></li>
+						<li><a href="/">{{strings.key5}}</a></li>
+						<li><a href="/what">{{strings.key6}}</a></li>
+						<li><a href="/getinvolved">{{strings.key7}}</a></li>
+						<li><a href="/articles">{{strings.key8}}</a></li>
+						<li><a href="http://sukey.org/blog/" target="_blank">{{strings.key9}}</a></li>
+						<li><a href="/contact">{{strings.key10}}</a></li>
+						<li><a href="/donate">{{strings.key11}}</a></li>
 					</ul>
 					<div id="logobtm"></div>
 				</div>

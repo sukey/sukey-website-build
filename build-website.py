@@ -1,4 +1,5 @@
 #!/usr/bin/python
+from __future__ import with_statement
 """Builds the website from django templates and language files.
 
 Uses the django template system to create static files for the website. This
