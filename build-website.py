@@ -53,7 +53,6 @@ def main(*args):
 		os.mkdir(OUTPUT_DIR)
 	for arg in args:
 		build_lang(arg)
-
 if __name__ == "__main__":
 	sys.exit(main(*sys.argv[1:]))
 

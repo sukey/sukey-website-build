@@ -1,4 +1,1 @@
-strings = {
-"key1":"val1",
-"key2":"val2",
-}
+strings = {"key1":"Opensukey.org","key2":"Keeping demonstrators safe, mobile & informed.","key3":"Sukey is a mapping and reporting tool for non-violent demonstrations.","key4":"","key5":"","key6":"","key7":"","key8":"","key9":"","key10":"","key11":"","key12":"","key13":"","key14":"","key15":"","key16":"","key17":"","key18":"","key19":"","key20":"","key21":"","key22":"","key23":"","key23":"","key24":"","key25":"","key27":"","key28":"","key29":"","key30":"","key31":"","key32":"","key33":"","key34":"","key35":"","key36":"","key37":"","key38":"","key39":"","key40":"",}

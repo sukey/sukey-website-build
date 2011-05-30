@@ -2,10 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Opensukey.org &mdash; {% block title %}Keeping demonstrators safe, mobile & informed.{% endblock %}</title>
+		<title>{{strings.key1}} - {% block title %}{{strings.key2}}{% endblock %}</title>
 		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" /> 
-		<meta name="description" content="Sukey is a mapping and reporting tool for non-violent demonstrations." /> 
-		<meta name="keywords" content="Sukey, protest map, live protest, kettling, GIS, demo2011, demonstrations, #sukey, sukeyData" /> 
+		<meta name="description" content="{{strings.key3}}" /> 
+		<meta name="keywords" content="{{string.key4}}" /> 
 		<meta name="robots" content="index, follow" /> 
 		<link rel="stylesheet" href="css/screen.css" />
 		<link rel="stylesheet" href="css/960.css" />
@@ -18,13 +18,13 @@
 				<div id="logo"></div>
 				<div id="nav1">
 					<ul>
-						<li><a href="/">Home</a></li>
-						<li><a href="/what">What is Sukey?</a></li>
-						<li><a href="/getinvolved">Get involved!</a></li>
-						<li><a href="/articles">Articles</a></li>
-						<li><a href="http://sukey.org/blog/" target="_blank">Blog</a></li>
-						<li><a href="/contact">Contact</a></li>
-						<li><a href="/donate">Donate</a></li>
+						<li><a href="/">{{string.key5}}</a></li>
+						<li><a href="/what">{{string.key6}}</a></li>
+						<li><a href="/getinvolved">{{string.key7}}</a></li>
+						<li><a href="/articles">{{string.key8}}</a></li>
+						<li><a href="http://sukey.org/blog/" target="_blank">{{string.key9}}</a></li>
+						<li><a href="/contact">{{string.key10}}</a></li>
+						<li><a href="/donate">{{string.key11}}</a></li>
 					</ul>
 					<div id="logobtm"></div>
 				</div>
