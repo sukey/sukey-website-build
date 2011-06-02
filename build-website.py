@@ -7,7 +7,7 @@ allows easy inclusion of common content, but removes the need for (e.g.) PHP
 includes that don't really do anything dynamic.
 
 You can build the website for all languages, by doing:
-$ python build-website.py $(sh all-langs.sh)
+$ python build-website.py
 
 This requires the python-django package on debian.
 """
