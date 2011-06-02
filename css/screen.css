@@ -163,10 +163,32 @@ a:hover {
 
 /* footer */
 
+#spacer {
+    height: 10px;
+    width: 100%;
+    clear: both;
+}
+
 #footer{
     clear:both;
     background: #000;
-    color: #fff;
+    color: #333333;
     height: 100%;
     padding: 10px;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+#footer li {
+    border-right: solid;
+    border-width: 1px;
+    float: left;
+    padding: 1px 13px 1px 13px;
+    font-size: 12px;
+}
+
+.floatleft {
+    float: left;
 }
