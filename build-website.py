@@ -52,8 +52,14 @@ def build_lang(lang):
 def main(*args):
 	if not os.path.exists(OUTPUT_DIR):
 		os.mkdir(OUTPUT_DIR)
+	if not args:
+		args = [os.path.splitext(f)[0]
+		        for f in os.listdir("l10n")
+		        if f.endswith(".py") and f != "__init__.py"]
+
 	for arg in args:
 		build_lang(arg)
+
 if __name__ == "__main__":
 	sys.exit(main(*sys.argv[1:]))
 
