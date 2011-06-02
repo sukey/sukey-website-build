@@ -18,7 +18,7 @@ a:hover {
     background-image: url('../img/header.png');
     background-position: 0px 0px;
     width: 959px;
-    height: 191px;
+    height: 126px;
     background-repeat: no-repeat;
     display: inline;
     float: left;
@@ -26,9 +26,9 @@ a:hover {
 
 #logobtm {
     background-image: url('../img/headerbtm.png');
-    width: 469px;
+    width: 390px;
     height: 32px;
-    left: 490px;
+    left: 570px;
     position: relative;
 }
 
@@ -61,14 +61,14 @@ a:hover {
 }
 
 #nav2 {
-    background-image: url('../img/subheadgradient.png');
-    background-repeat: repeat-x;
+    background-color: #000;
     width: 100%;
     display: inline;
     float: left;
     clear: both;
     text-align: right;
     height: 38px;
+    margin-bottom: 10px;
 }
 
 #nav2 .img {
@@ -89,13 +89,92 @@ a:hover {
 
 #navdrop {
     width: 960px;
-    position: absolute;
+    position: relative;
+    clear: both;
     background-image: url('../img/navdrop.png');
     height: 9px;
-    top: 266px;
+    top: 0px;
 }
 
 #main {
     text-align: left;
-    padding-top: 30px;
+    display: inline;
+    position: relative;
+    top: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#streamcont {
+    text-align: left;
+    display: inline;
+    position: relative;
+    margin-left: 4px;
+    margin-right: 0px;
+    top: 5px;
+}
+
+.streampic {
+    background-color: #000000;
+    width: 63px;
+    height: 63px;
+    float:left;
+}
+
+.streampic img {
+    float:left;
+}
+
+.streamtr {
+    background-image: url('../img/darkgrey.png');
+    width: 3px;
+    height: 3px;
+    float:left;
+}
+
+.streambl {
+    background-image: url('../img/darkgrey.png');
+    width: 3px;
+    height: 3px;
+    top: 56px;
+    position: relative;
+}
+
+.streamarrow {
+    height: 60px;
+    width: 10px;
+    background-image: url('../img/arrow.png');
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 7px;
+}
+
+.streamitm {
+    background-color: #000000;
+    float: left;    
+    display: inline;
+    position: absolute;
+    top: -2px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    left: 3px;
+    font-size: 12px;
+    width: 137px;
+    word-wrap: break-word;
+    display: inline-block;
+    
+}
+
+.streamitmcont {
+    width: 117px;
+    background-color: #FFFFFF;
+    float: left;
+    display: inline-block;
+    position: relative;
+    min-height: 40px;
+    padding: 10px;
+    margin-right: 1px;
+    top: -3px;
+    left: -3px;
 }
