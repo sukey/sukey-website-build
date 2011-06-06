@@ -3,5 +3,35 @@
 {% block title %}Index{% endblock %}
 
 {% block content %}
-<h1>Index</h1>
+<iframe class="grid_6" class="floatleft" src="http://blip.tv/play/hYhSgr%2BXLwI.html" width="460" height="300" frameborder="0" allowfullscreen>
+                </iframe>
+                <embed type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#hYhSgr+XLwI" style="display:none">
+                </embed>
+                <div class="grid_3">
+                  {{strings.key12|safe}}
+                </div>
+                <div class="grid_3">
+                  <div id="streamcont">
+                    <div class="streampic">
+                      <div class="streampicont">
+                        <img src="../img/twitterpic.png" />
+                      </div>
+                    </div>
+                    <div class="streamarrow">
+                    </div>
+                    <div class="streamitm">
+                      <div class="streamitmcont">
+                          .skjdbrglbjknsd;rlkt.jbvlsifghbv.sbgtdj,ghb,jkhfj,hg
+                      </div>
+                    </div>
+                    <div class="streamitmbl">
+                    </div>
+                  </div>
+                </div>
+                <div class="grid_6" style="clear: both;">{{strings.key13|safe}}
+                </div>
+                <div class="grid_9">
+                    <br />
+                  <img src="../img/t-shirts.png" /><br />
+                </div>
 {% endblock %}

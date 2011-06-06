@@ -1,1 +1,15 @@
-strings = {"key1":"Opensukey.org","key2":"Keeping demonstrators safe, mobile & informed.","key3":"Sukey is a mapping and reporting tool for non-violent demonstrations.","key4":"Sukey, protest map, live protest, kettling, GIS, demo2011, demonstrations, #sukey, sukeyData","key5":"Home","key6":"What is Sukey?","key7":"Get involved!","key8":"Articles","key9":"Blog","key10":"Contact","key11":"Donate","key12":"","key13":"","key14":"","key15":"","key16":"","key17":"","key18":"","key19":"","key20":"","key21":"","key22":"","key23":"","key23":"","key24":"","key25":"","key27":"","key28":"","key29":"","key30":"","key31":"","key32":"","key33":"","key34":"","key35":"","key36":"","key37":"","key38":"","key39":"","key40":"",}
+strings = {
+    "key1":"Opensukey.org",
+    "key2":"Keeping people safe, mobile and informed at demonstrations.",
+    "key3":"Sukey is a mapping and reporting tool for non-violent demonstrations.",
+    "key4":"Sukey, protest map, live protest, kettling, GIS, demo2011, demonstrations, #sukey, sukeyData",
+    "key5":"Home",
+    "key6":"What is Sukey?",
+    "key7":"Get involved!",
+    "key8":"Media",
+    "key9":"Blog",
+    "key10":"Contact",
+    "key11":"Donate",
+    "key12":'<h1>Welcome to OpenSukey!</h1><br /><p>Thanks for checking out our site!</p><br /><p>We&#39;ve been very busy the last few months getting ready for our new release of the Sukey app. This will include native phone apps for iPhone and Android, released on their respective markets, as well as a Spanish release of the platform.</p><br /><p>We would also like to take this opportunity to thank the translators who have helped us start pushing for an international release of Sukey!</p><br />',
+    "key13":'<br /><p>If you&#39;re a fan of our work and would like to support us there are several ways you can do so. Word of mouth is one of the best ways - we survive on grassroots publicity, so tell your friends! To help you do so you could also wear one of our stylish Sukey t-shirts by either making your own or buying one from our threadme store by clicking on the advert below.</p><br /><p>Finally both your time and/or your money will help us push the platform further, you could help out by acting as a translator for us, or if you&#39;re a programmer you can make pull requests on our platform over github. Any donations you give us will be spent on maintaining our servers, upgrading our security, holding hack days, or buying equipment to make sure we can deliver the best service we possibly can.</p><br /><p>If you have any questions for us please either visit our "What is Sukey" page, or is that doesn&#39;t help, drop us an e-mail, we&#39;d love to hear from you!</p>',
+    "key14":"","key15":"","key16":"","key17":"","key18":"","key19":"","key20":"","key21":"","key22":"","key23":"","key23":"","key24":"","key25":"","key27":"","key28":"","key29":"","key30":"","key31":"","key32":"","key33":"","key34":"","key35":"","key36":"","key37":"","key38":"","key39":"","key40":"",}
