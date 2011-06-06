@@ -3,12 +3,21 @@
 {% block title %}What is Sukey?{% endblock %}
 
 {% block content %}
-<h1>What is Sukey?</h1>
-<h2>(<i>"Fleeing riot police on foot?  There's an app for that ..."</i> <span style="font-size:50%">(thanks @mlascarides!)</span>)</h2>
-<p>Sukey is a mobile app and a set of web services that are designed to keep you safe, mobile and informed during protests.
-<h3>Give a little</h3>
-<p>When you see something interesting, tweet with the hashtag <strong>sukey</strong> or send us an SMS.</p>
-<h3>Get a lot</h3>
-<p>Throughout the protest we will provide you with status updates via the Sukey app, SMS and @SukeyData on Twitter in order to keep you well informed about what is going on at the protest.</p>
+<div class="grid_12" style="height: 79px;">
+</div>
+<div class="push_1" id="iphoneadd">
+    <img class="grid_3" src="../img/whatisiphone.png" />
+    <div class="push_1">
+        <div class="grid_3">
+            <h1>Fleeing riot police on foot?</h1>
+            <h2><br />There&#39;s an app for that.</h2>
+            <p><br />Sukey is our name for a set of applications designed to keep you protected and informed during protests. When you see something interesting, you tell us. When we're confident that something has actually happened, we tell you.</p><h2><br /></h2>
+
+<p>If you have a smartphone with a good web browser, you can see our first stab at the compass view, which we call "Roar". If you don&#39;t, you can use our SMS update service we call "Growl". </p><h2><br /></h2>
+
+<p>We are currently getting ready to deliver our native phone app (grab a first glance to the left!) too. If you want to get involved it&#39;s as easy as taking a look at our Github account!</p>
+        </div>
+    </div>
+</div>
 {% endblock %}
 

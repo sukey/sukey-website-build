@@ -29,6 +29,12 @@ a:hover {
     color: #FFFFFF;
 }
 
+#nav1 a {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 #nav1 ul {
     list-style: none;
 }
@@ -88,6 +94,18 @@ a:hover {
     background-image: url('../img/bgm.png');
     background-repeat: repeat-y;
     background-position: center;
+}
+
+/* Variable Content */
+
+#iphoneadd h1{
+    font-size: 30px;
+    line-height: 30px;
+}
+
+#iphoneadd h2{
+    font-size: 18px;
+    line-height: 20px;
 }
 
 /* stream */
@@ -175,6 +193,11 @@ a:hover {
     color: #333333;
     height: 100%;
     padding: 10px;
+}
+
+#footer a {
+    color: #333333;
+    text-decoration: none;
 }
 
 #footer ul {
