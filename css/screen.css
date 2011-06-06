@@ -82,6 +82,10 @@ a:hover {
     margin-right: 5px;
 }
 
+#nav2 a {
+    text-decoration: none;
+}
+
 #navdrop {
     position: relative;
     background-image: url('../img/navdrop.png');

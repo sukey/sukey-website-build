@@ -3,9 +3,27 @@
 {% block title %}What is Sukey?{% endblock %}
 
 {% block content %}
-<div class="grid_12" style="height: 79px;">
+<div class="grid_9" style="height: 79px;">
 </div>
-<div class="push_1" id="iphoneadd">
+<div class="grid_3">
+                  <div id="streamcont">
+                    <div class="streampic">
+                      <div class="streampicont">
+                        <img src="../img/twitterpic.png" />
+                      </div>
+                    </div>
+                    <div class="streamarrow">
+                    </div>
+                    <div class="streamitm">
+                      <div class="streamitmcont">
+                          .skjdbrglbjknsd;rlkt.jbvlsifghbv.sbgtdj,ghb,jkhfj,hg
+                      </div>
+                    </div>
+                    <div class="streamitmbl">
+                    </div>
+                  </div>
+                </div>
+<div class="push_1" id="iphoneadd" style="clear: both;">
     <img class="grid_3" src="../img/whatisiphone.png" />
     <div class="push_1">
         <div class="grid_3">
