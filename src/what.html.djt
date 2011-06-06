@@ -23,10 +23,14 @@
                     </div>
                   </div>
                 </div>
-<div class="push_1" id="iphoneadd" style="clear: both;">
+<div class="grid_1" style="clear: both;">
+    &nbsp;
+</div>
     <img class="grid_3" src="../img/whatisiphone.png" />
-    <div class="push_1">
-        <div class="grid_3">
+    <div class="grid_1">
+    &nbsp;
+    </div>
+        <div class="grid_3" id="iphoneadd">
             <h1>Fleeing riot police on foot?</h1>
             <h2><br />There&#39;s an app for that.</h2>
             <p><br />Sukey is our name for a set of applications designed to keep you protected and informed during protests. When you see something interesting, you tell us. When we're confident that something has actually happened, we tell you.</p><h2><br /></h2>
@@ -35,7 +39,5 @@
 
 <p>We are currently getting ready to deliver our native phone app (grab a first glance to the left!) too. If you want to get involved it&#39;s as easy as taking a look at our Github account!</p>
         </div>
-    </div>
-</div>
 {% endblock %}
 
