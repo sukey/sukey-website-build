@@ -10,6 +10,10 @@ a:hover {
     cursor: pointer;
 }
 
+p {
+    margin: 1em 0;
+}
+
 /* Header */
 
 #logo {
@@ -236,7 +240,7 @@ a:hover {
 
 .streamitm {
     background-color: #000000;
-    float: left;    
+    float: left;
     display: inline;
     position: absolute;
     padding-bottom: 0px;
@@ -246,7 +250,7 @@ a:hover {
     width: 137px;
     word-wrap: break-word;
     display: inline-block;
-    
+
 }
 
 .streamitmcont {

@@ -1,16 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>{{strings.key1}} - {% block title %}{{strings.key2}}{% endblock %}</title>
-		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" /> 
-		<meta name="description" content="{{strings.key3}}" /> 
-		<meta name="keywords" content="{{strings.key4}}" /> 
-		<meta name="robots" content="index, follow" /> 
-		<link rel="stylesheet" href="../css/screen.css" />
-		<link rel="stylesheet" href="../css/960.css" />
-		<link rel="stylesheet" href="../css/text.css" />
+		<title>{{strings.base_title}} - {% block title %}{{strings.base_tagline}}{% endblock %}</title>
+		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+		<meta name="description" content="{{strings.meta_description}}" />
+		<meta name="keywords" content="{{strings.meta_keywords}}" />
+		<meta name="robots" content="index, follow" />
+		<!-- later stylesheets take precedence -->
 		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/text.css" />
+		<link rel="stylesheet" href="../css/960.css" />
+		<link rel="stylesheet" href="../css/screen.css" />
 	</head>
 	<body>
             <div class="container_12">
@@ -20,37 +21,37 @@
                 <ul>
                     <li>
                       <a href="index.html">
-                        {{strings.key5}}
+                        {{strings.pagename_home}}
                       </a>
                     </li>
                     <li>
                       <a href="what.html">
-                        {{strings.key6}}
+                        {{strings.pagename_what}}
                       </a>
                     </li>
                     <li>
                       <a href="donate.html">
-                        {{strings.key7}}
+                        {{strings.pagename_join}}
                       </a>
                     </li>
                     <li>
                       <a href="articles.html">
-                        {{strings.key8}}
+                        {{strings.pagename_media}}
                       </a>
                     </li>
                     <li>
                       <a href="http://sukey.org/blog/" target="_blank">
-                        {{strings.key9}}
+                        {{strings.pagename_blog}}
                       </a>
                     </li>
                     <li>
                       <a href="contact.html">
-                        {{strings.key10}}
+                        {{strings.pagename_contact}}
                       </a>
                     </li>
                     <li>
                       <a href="donate.html">
-                        {{strings.key11}}
+                        {{strings.pagename_donate}}
                       </a>
                     </li>
                 </ul>
@@ -89,37 +90,37 @@
                   <ul>
                     <li>
                       <a href="index.html">
-                        {{strings.key5}}
+                        {{strings.pagename_home}}
                       </a>
                     </li>
                     <li>
                       <a href="what.html">
-                        {{strings.key6}}
+                        {{strings.pagename_what}}
                       </a>
                     </li>
                     <li>
                       <a href="getinvolved.html">
-                        {{strings.key7}}
+                        {{strings.pagename_join}}
                       </a>
                     </li>
                     <li>
                       <a href="articles">
-                        {{strings.key8}}
+                        {{strings.pagename_media}}
                       </a>
                     </li>
                     <li>
                       <a href="http://sukey.org/blog/" target="_blank">
-                        {{strings.key9}}
+                        {{strings.pagename_blog}}
                       </a>
                     </li>
                     <li>
                       <a href="contact.html">
-                        {{strings.key10}}
+                        {{strings.pagename_contact}}
                       </a>
                     </li>
                     <li>
                       <a href="donate.html">
-                        {{strings.key11}}
+                        {{strings.pagename_donate}}
                       </a>
                     </li>
                     <a href="https://github.com/sukey">
