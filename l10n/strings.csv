@@ -1,5 +1,5 @@
-key,en,de,fr,es
-base_title,Opensukey.org,Opensukey.org,Opensukey.org,Opensukey.org
+TOUCH ME [1],en,de,fr,es
+base_title,Opensukey.org
 base_tagline,"Keeping people safe, mobile and informed at demonstrations.",,,"Mantenemos a los protestantes seguros, m&#243;viles e informados."
 meta_description,Sukey is a mapping and reporting tool for non-violent demonstrations.
 meta_keywords,"Sukey, protest map, live protest, kettling, GIS, demo2011, demonstrations, #sukey, sukeyData"
@@ -21,3 +21,11 @@ page_home_howtohelp,"<p>If you&#39;re a fan of our work and would like to suppor
 <p>If you have any questions for us please either visit our ""What is Sukey"" page, or is that doesn&#39;t help, drop us an e-mail, we&#39;d love to hear from you!</p>",,,"<p>Si te gusta lo que hacemos y quieres ayudarnos, hay varias formas de hacerlo. El boca a boca es una de las mejores, sobrevivimos gracias a que nos conozcan en los movimientos de base, as&#237; que &#161;h&#225;blale de nosotrxs a tus amigxs! - Para ayudarte a hacerlo podr&#237;as llevar puesta una camiseta de Sukey, te la puedes hacer tu mismx o comprarla en nuestra tienda threadme haciendo click en el anuncio de abajo.</p>
 <p>Finally both your time and/or your money will help us push the platform further, you could help out by acting as a translator for us, or if you&#39;re a programmer you can make pull requests on our platform over github. Any donations you give us will be spent on maintaining our servers, upgrading our security, holding hack days, or buying equipment to make sure we can deliver the best service we possibly can.</p>
 <p>If you have any questions for us please either visit our ""What is Sukey"" page, or is that doesn&#39;t help, drop us an e-mail, we&#39;d love to hear from you!</p>"
+
+
+"[1] The English version is the ""master"" version of each key.
+
+Empty cells will default to the English version of the string.
+
+If you update the English version of a string, please blank all the other languages in the same row, and background-colour them as red.
+"

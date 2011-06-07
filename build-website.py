@@ -49,6 +49,7 @@ def load_strings():
 		strings = dict((lang, {}) for lang in langs)
 
 		for row in row_iter:
+			if len(row) < 2: continue
 			key = row[0]
 			default_value = row[1]
 			for lang, value in itertools.izip_longest(langs, row[1:], fillvalue=""):
