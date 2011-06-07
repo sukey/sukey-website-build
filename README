@@ -32,3 +32,8 @@ accessing "deep" variables directly
 -----------------------------------
 {{strings.key1}}
 {% endblock %}
+
+Known Bugs:
+-----------------------------------
+jQuery bug stops the FAQ box from expanding
+Horrible inline style in certain divs. Any css tweaks welcome :)

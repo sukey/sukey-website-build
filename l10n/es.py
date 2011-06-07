@@ -1,4 +1,15 @@
 strings = {
-"key1":"val1",
-"key2":"val2",
-}
+    "key1":"Opensukey.org",
+    "key2":"Mantenemos a los protestantes seguros, m&#243;viles e informados.",
+    "key3":"Sukey is a mapping and reporting tool for non-violent demonstrations.",
+    "key4":"Sukey, protest map, live protest, kettling, GIS, demo2011, demonstrations, #sukey, sukeyData",
+    "key5":"Home",
+    "key6":"What is Sukey?",
+    "key7":"Get involved!",
+    "key8":"Media",
+    "key9":"Blog",
+    "key10":"Contact",
+    "key11":"Donate",
+    "key12":'<h1>&#161;Bienvenidx a Open Sukey!</h1><br /><p>&#161;Gracias por visitar nuestra p&#225;gina web!</p><br /><p>En los &#250;ltimos meses hemos estado muy ocupadxs preparando el lanzamiento de la nueva versi&#243;n de la Sukey app. &#201;sta incluye apps nativas para iPhone y Adroids que se lanzar&#225;n en sus mercados respectivos, adem&#225;s de una versi&#243;n en castellano de la plataforma.</p><br /><p>Tambi&#233;n nos gustar&#237;a aprovechar esta oportunidad para dar las gracias a los traductores que nos han ayudado a promover el lanzamiento internacional de Sukey!</p><br />',
+    "key13":'<br /><p>Si te gusta lo que hacemos y quieres ayudarnos, hay varias formas de hacerlo. El boca a boca es una de las mejores, sobrevivimos gracias a que nos conozcan en los movimientos de base, as&#237; que &#161;h&#225;blale de nosotrxs a tus amigxs! - Para ayudarte a hacerlo podr&#237;as llevar puesta una camiseta de Sukey, te la puedes hacer tu mismx o comprarla en nuestra tienda threadme haciendo click en el anuncio de abajo.</p><br /><p>Finally both your time and/or your money will help us push the platform further, you could help out by acting as a translator for us, or if you&#39;re a programmer you can make pull requests on our platform over github. Any donations you give us will be spent on maintaining our servers, upgrading our security, holding hack days, or buying equipment to make sure we can deliver the best service we possibly can.</p><br /><p>If you have any questions for us please either visit our "What is Sukey" page, or is that doesn&#39;t help, drop us an e-mail, we&#39;d love to hear from you!</p>',
+    "key14":"","key15":"","key16":"","key17":"","key18":"","key19":"","key20":"","key21":"","key22":"","key23":"","key23":"","key24":"","key25":"","key27":"","key28":"","key29":"","key30":"","key31":"","key32":"","key33":"","key34":"","key35":"","key36":"","key37":"","key38":"","key39":"","key40":"",}

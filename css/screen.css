@@ -112,6 +112,85 @@ a:hover {
     line-height: 20px;
 }
 
+#faq .h7 {
+    color: #FFF;
+    font-size: 20px;
+    padding-top: 4px;
+    font-weight: bold;
+}
+
+#faq .h8 {
+    color: #FFF;
+    font-size: 20px;
+    padding-top: 3px;
+    font-weight: bold;
+    float: right;
+}
+
+#faqtl {
+    width: 11px;
+    height: 37px;
+    background-image: url('../img/faqtl.png');
+    float: left;
+}
+
+#faqtop {
+    width: 518px;
+    height: 37px;
+    background-color: #000;
+    float: left;
+}
+
+#faqtr {
+    width: 11px;
+    height: 37px;
+    background-image: url('../img/faqtr.png');
+    float: left;
+}
+
+.question {
+    background-color: #DFDFDF;
+    clear: both;
+}
+
+.question h4 {
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.answer {
+    clear: both;
+    padding: 10px;
+}
+
+#faqbl {
+    width: 11px;
+    height: 37px;
+    background-image: url('../img/faqbl.png');
+    float: left;
+}
+
+#faqbottom {
+    width: 518px;
+    height: 37px;
+    background-color: #000;
+    float: left;
+}
+
+#faqbottom a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#faqbr {
+    width: 11px;
+    height: 37px;
+    background-image: url('../img/faqbr.png');
+    float: left;
+}
+
 /* stream */
 
 #streamcont {
