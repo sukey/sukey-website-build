@@ -280,6 +280,7 @@ p {
     color: #333333;
     height: 100%;
     padding: 10px;
+    min-height: 20px;
 }
 
 #footer a {
