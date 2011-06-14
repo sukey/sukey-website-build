@@ -1,15 +1,15 @@
 TOUCH ME [1],en,de,fr,es
 base_title,Opensukey.org
 base_tagline,"Keeping people safe, mobile and informed at demonstrations.",,,"Mantenemos a los protestantes seguros, m&#243;viles e informados."
-meta_description,Sukey is a mapping and reporting tool for non-violent demonstrations.
-meta_keywords,"Sukey, protest map, live protest, kettling, GIS, demo2011, demonstrations, #sukey, sukeyData"
-pagename_home,Home
-pagename_what,What is Sukey?
-pagename_join,Get involved!
-pagename_media,Media
-pagename_blog,Blog
-pagename_contact,Contact
-pagename_donate,Donate
+meta_description,Sukey is a mapping and reporting tool for non-violent demonstrations.,,,Sukey es una herramienta de mapeado y reportaje para las protestas no violentas.  
+meta_keywords,"Sukey, protest map, live protest, kettling, GIS, demo2011, demonstrations, #sukey, sukeyData",,,"Sukey, mapa de la protesta, protesta en vivo, cercos policiales, GIS, demo2011, manifestaciones, #sukey, sukeyData"
+pagename_home,Home,,,Home
+pagename_what,What is Sukey?,,,¿Qué es Sukey?
+pagename_join,Get involved!,,,¡Participa!
+pagename_media,Media,,,Prensa
+pagename_blog,Blog,,,Blog
+pagename_contact,Contact,,,Contacto
+pagename_donate,Donate,,,Donaciones
 page_home_title,Welcome to OpenSukey!,,,&#161;Bienvenidx a Open Sukey!
 page_home_intro,"<p>Thanks for checking out our site!</p>
 <p>We&#39;ve been very busy the last few months getting ready for our new release of the Sukey app. This will include native phone apps for iPhone and Android, released on their respective markets, as well as a Spanish release of the platform.</p>
@@ -18,14 +18,12 @@ page_home_intro,"<p>Thanks for checking out our site!</p>
 <p>Tambi&#233;n nos gustar&#237;a aprovechar esta oportunidad para dar las gracias a los traductores que nos han ayudado a promover el lanzamiento internacional de Sukey!</p>"
 page_home_howtohelp,"<p>If you&#39;re a fan of our work and would like to support us there are several ways you can do so. Word of mouth is one of the best ways - we survive on grassroots publicity, so tell your friends! To help you do so you could also wear one of our stylish Sukey t-shirts by either making your own or buying one from our threadme store by clicking on the advert below.</p>
 <p>Finally both your time and/or your money will help us push the platform further, you could help out by acting as a translator for us, or if you&#39;re a programmer you can make pull requests on our platform over github. Any donations you give us will be spent on maintaining our servers, upgrading our security, holding hack days, or buying equipment to make sure we can deliver the best service we possibly can.</p>
-<p>If you have any questions for us please either visit our ""What is Sukey"" page, or is that doesn&#39;t help, drop us an e-mail, we&#39;d love to hear from you!</p>",,,"<p>Si te gusta lo que hacemos y quieres ayudarnos, hay varias formas de hacerlo. El boca a boca es una de las mejores, sobrevivimos gracias a que nos conozcan en los movimientos de base, as&#237; que &#161;h&#225;blale de nosotrxs a tus amigxs! - Para ayudarte a hacerlo podr&#237;as llevar puesta una camiseta de Sukey, te la puedes hacer tu mismx o comprarla en nuestra tienda threadme haciendo click en el anuncio de abajo.</p>
-<p>Finally both your time and/or your money will help us push the platform further, you could help out by acting as a translator for us, or if you&#39;re a programmer you can make pull requests on our platform over github. Any donations you give us will be spent on maintaining our servers, upgrading our security, holding hack days, or buying equipment to make sure we can deliver the best service we possibly can.</p>
-<p>If you have any questions for us please either visit our ""What is Sukey"" page, or is that doesn&#39;t help, drop us an e-mail, we&#39;d love to hear from you!</p>"
+<p>If you have any questions for us please either visit our ""What is Sukey"" page, or is that doesn&#39;t help, drop us an e-mail, we&#39;d love to hear from you!</p>",,,"<br /><p>Si te gusta lo que hacemos y quieres ayudarnos, hay varias formas de hacerlo. El boca a boca es una de las mejores, sobrevivimos gracias a que nos conozcan en los movimientos de base, así que ¡háblale de nosotrxs a tus amigxs! - Para ayudarte a hacerlo podrías llevar puesta una camiseta de Sukey, te la puedes hacer tu mismx o comprarla en nuestra tienda threadme haciendo click en el anuncio de abajo.</p><br /><p>Por último tu tiempo y/o tu dinero nos ayudará a darle un mayor impulso a la plataforma. Podrías ayudar traduciendo para Sukey o, si sabes programar, podrías hacer una pull request sobre nuestra plataforma en github. Cualquier donación que recibamos de ti será invertida en mantener nuestros servidores, actualizar nuestra seguridad, organizar hack days, o comprar equipos para asegurarnos de que proporcionamos el mejor servicio que nos sea posible.</p><br /><p>Si tienes alguna pregunta, por favor visita la sección ""Qué es Sukey"" o, si eso no te sirve de gran cosa, envíanos un email ¡nos encantaría recibir noticias tuyas!</p>"
 
 
 "[1] The English version is the ""master"" version of each key.
 
-Empty cells will default to the English version of the string.
+If you update the English version of a string, please background-colour the other languages as red, to show that they are out-of-date.
 
-If you update the English version of a string, please blank all the other languages in the same row, and background-colour them as red.
+Empty cells will default to the English version of the string. If this is intentional, please background-colour the other language cell green.
 "
