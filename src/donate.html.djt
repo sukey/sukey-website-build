@@ -3,5 +3,11 @@
 {% block title %}Donate{% endblock %}
 
 {% block content %}
+    <div class="grid_1">
+        &nbsp;
+    </div>
+    <div class="grid_6">
+        {{strings.page_home_howtohelp|safe}}
+    </div>
 {% endblock %}
 

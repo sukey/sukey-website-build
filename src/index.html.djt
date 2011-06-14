@@ -3,14 +3,14 @@
 {% block title %}Index{% endblock %}
 
 {% block content %}
+    <div class="grid_3">
+                  <h1>{{strings.page_home_title}}</h1>
+                  {{strings.page_home_intro|safe}}
+                </div>
 <iframe class="grid_6" class="floatleft" src="http://blip.tv/play/hYhSgr%2BXLwI.html" width="460" height="300" frameborder="0" allowfullscreen>
                 </iframe>
                 <embed type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#hYhSgr+XLwI" style="display:none">
                 </embed>
-                <div class="grid_3">
-                  <h1>{{strings.page_home_title}}</h1>
-                  {{strings.page_home_intro|safe}}
-                </div>
                 <div class="grid_3">
                   <div id="streamcont">
                     <div class="streampic">
@@ -29,7 +29,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="grid_6" style="clear: both;">{{strings.page_home_howtohelp|safe}}
+                <div class="grid_6" style="clear: both;">
                 </div>
                 <div class="grid_9">
                     <br />
